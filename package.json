@@ -1,0 +1,23 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "build a restful api with node.js, Express.js and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanzhaohong/node_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanzhaohong/node_api/issues"
+  },
+  "homepage": "https://github.com/wanzhaohong/node_api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
