@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 // A Middleware function to authenticate user through JWT.
 //This function can be added to any routes which need to check if the user logged in.
-function auth (request, response, next) {
+function authentication (request, response, next) {
     // Check if the current user has auth-token with him in the header.
     const token = request.header('auth-token');
     if (!token){
@@ -20,4 +20,4 @@ function auth (request, response, next) {
     }
 }
 
-module.exports.auth = auth;
+module.exports.authentication = authentication;
