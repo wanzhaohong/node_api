@@ -4,7 +4,6 @@ const app = express();
 
 // Requries the Mongoose to connect to the MongoDB
 const Mongoose = require('mongoose');
-require('dotenv/config');
 
 // require body-parser, so we can change the request data to JSON.
 // const bodyParser = require('body-parser');
